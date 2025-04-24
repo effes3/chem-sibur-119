@@ -2,7 +2,7 @@
 
 ### 🕵️‍♂️ Data Cleaning (a bit messy, but it worked)
 
-The initial dataset contained ~12k molecules. We attempted to gather more data using augmentation (for more information check **data_augmentation.ipynb**) and simply adding more examples from datasets on **Kaggle**, **HuggingFace**, **GitHub** **platforms** and etc. but realized it was a bad idea because we were getting unsatisfactory results at the expense of time. So we tried a basic standardization on the primary dataset from "SIBUR" using **RDKit** and **Chython** libraries:
+The initial dataset contained ~12k molecules. We attempted to gather more data using augmentation (**check data_augmentation.ipynb for more info**) and simply adding more examples from datasets on **Kaggle**, **HuggingFace**, **GitHub** **platforms** and etc. but realized it was a bad idea because we were getting unsatisfactory results at the expense of time. So we tried a basic standardization on the primary dataset from "SIBUR" using **RDKit** and **Chython** libraries:
 
 * Removed invalid SMILES  
 * The duplicates were removed a little crookedly  
