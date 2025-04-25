@@ -39,23 +39,23 @@ Due to some misunderstandings, we chose a bad solution to submit our application
 
 ### 🎓 Conclusions
 
-* Data Quality Matters
+#### 1. Data Quality Matters
 
-Despite initial efforts to augment the dataset, cleaner and more consistent data (like the final processed 10,898 molecules) could have improved model performance. Future work should prioritize rigorous validation of preprocessing steps to avoid accidental exclusion of valid samples.
+* Despite initial efforts to augment the dataset, cleaner and more consistent data (like the final processed 10,898 molecules) could have improved model performance. Future work should prioritize rigorous validation of preprocessing steps to avoid accidental exclusion of valid samples
 
-* Model Selection & Flexibility
+#### 2. Model Selection & Flexibility
 
-Simple descriptor-based methods (RDKit/Mordred + XGBoost) underperformed (RMSE ~1.0), confirming their limitations for complex LogP prediction.
-GNNs (DMPNN) showed better results (RMSE ~0.93–0.96), but the Chemprop-based model outperformed both (RMSE ~0.67–0.70), proving that task-specific architectures are critical.
+* Simple descriptor-based methods (RDKit/Mordred + XGBoost) underperformed (RMSE ~1.0), confirming their limitations for complex LogP prediction
+* GNNs (DMPNN) showed better results (RMSE ~0.93–0.96), but the Chemprop-based model outperformed both (RMSE ~0.67–0.70), proving that task-specific architectures are critical
 
-* Submission Strategy
+#### 3. Submission Strategy
 
-A misstep in leaderboard submission (using a suboptimal model version) cost us ~8–9 positions. Always validate the final pipeline before submission.
+* A misstep in leaderboard submission (using a suboptimal model version) cost us ~8–9 positions. Always validate the final pipeline before submission
 
-* Key Takeaways
+#### 4. Key Takeaways
 
-Chemprop is a powerful tool for molecular property prediction, but requires careful hyperparameter tuning.
-Team coordination is as important as technical work—clear communication could have prevented the dataset/leaderboard issues.
+* Chemprop is a powerful tool for molecular property prediction, but requires careful hyperparameter tuning
+* Team coordination is as important as technical work—clear communication could have prevented the dataset/leaderboard issues
 
 
 
