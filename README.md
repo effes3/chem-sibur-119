@@ -23,7 +23,7 @@ Once we had finished data preprocessing, we started thinking about LogP predicti
 * The best RMSE on public-leaderboard: **1.00064**
 * The best RMSE on private-leaderboard: **1.00174**
 
-Our gut feeling was that using molecular descriptors and molecular fingerprints would not allow us to achieve good RMSE because it's so easy to perform, so we did not spend much time on it. In short, using these parameters seemed very simple and inflexible to us, so we did not pay much attention to it. 
+Our gut feeling was that using molecular descriptors and molecular fingerprints would not allow us to achieve good RMSE because it's so easy to perform, so we did not spend much time on it. In short, using these parameters seemed very simple and inflexible to us, so we did not pay much attention to it
 
 #### 2. Using GNN, in particular, DMPNN (check DMPNN_pred.ipynb for more info), this part was prepared by [Kirill](https://t.me/KiZeMin), also check **chem-sibur-119/kirillpart**
 
