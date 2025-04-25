@@ -41,7 +41,7 @@ Due to some misunderstandings, we chose a bad solution to submit our application
 
 #### 1. Data Quality Matters
 
-* Despite initial efforts to augment the dataset, cleaner and more consistent data (like the final processed 10,898 molecules) could have improved model performance. Future work should prioritize rigorous validation of preprocessing steps to avoid accidental exclusion of valid samples
+* Despite initial efforts to augment the dataset, cleaner and more consistent data (like the final processed 10898 molecules) could have improved model performance. Future work should prioritize rigorous validation of preprocessing steps to avoid accidental exclusion of valid samples
 
 #### 2. Model Selection & Flexibility
 
@@ -50,7 +50,7 @@ Due to some misunderstandings, we chose a bad solution to submit our application
 
 #### 3. Submission Strategy
 
-* A misstep in leaderboard submission (using a suboptimal model version) cost us ~8–9 positions. Always validate the final pipeline before submission
+* A misstep in leaderboard submission (using a suboptimal model version) cost us ~6–7 positions. Always validate the final pipeline before submission
 
 #### 4. Key Takeaways
 
