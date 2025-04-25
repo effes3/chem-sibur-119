@@ -1,5 +1,7 @@
 # 🧪 Chemistry Meets ML: LogP Prediction for SIBUR "119 элемент" Challenge
 
+For all the original datasets, look in the folder **chem-sibur-119/allsiburdata**
+
 ### 🕵️‍♂️ Data Cleaning (a bit messy, but it worked)
 
 The initial dataset contained ~12k molecules. We attempted to gather more data using augmentation (**check chem-sibur-119/data_augmentation.ipynb for more info**) and simply adding more examples from datasets on **Kaggle**, **HuggingFace**, **GitHub** **platforms** and etc. but realized it was a bad idea because we were getting unsatisfactory results at the expense of time. So we tried a basic standardization on the primary dataset from "SIBUR" using **RDKit** and **Chython** libraries:
