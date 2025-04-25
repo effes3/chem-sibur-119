@@ -30,7 +30,7 @@ Our gut feeling was that using molecular descriptors and molecular fingerprints 
 * The best RMSE on public-leaderboard: **0.930880**
 * The best RMSE on private-leaderboard: **0.958848**
 
-#### 3. Our final model using [Chemprop Library](https://github.com/chemprop/chemprop) (check Chemprop_pred.ipynb for more info), this part was mostly done by [Mikhail](https://t.me/sozhitelu), but we (Kirill and Grisha) also took some part in it, also check **chem-sibur-119/mishapart**
+#### 3. Our final model using [Chemprop Library](https://github.com/chemprop/chemprop) (check Chemprop_pred.ipynb for more info), this part was mostly done by [Mikhail](https://t.me/sozhitelu), but we (Kirill and Grisha) also took some part in it, also check **chem-sibur-119/mikhailpart**
 
 * The best RMSE on public-leaderboard: **0.672947**
 * The best RMSE on private-leaderboard: **0.704836**
