@@ -57,7 +57,7 @@ Due to some misunderstandings, we chose a bad solution to submit our application
 #### 4. Key Takeaways
 
 * Chemprop is a powerful tool for molecular property prediction, but requires careful hyperparameter tuning
-* Team coordination is as important as technical work—clear communication could have prevented the dataset/leaderboard issues
+* Team coordination is as important as technical work — clear communication could have prevented the dataset/leaderboard issues
 
 
 
